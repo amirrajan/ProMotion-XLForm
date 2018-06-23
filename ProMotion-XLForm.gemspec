@@ -16,8 +16,8 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(spec)/})
   gem.require_paths = ["lib"]
 
-  gem.add_dependency "ProMotion", "~> 2.0"
-  gem.add_dependency "motion-cocoapods", "~> 1.4"
+  gem.add_dependency "ProMotion", github: 'amirrajan/ProMotion', branch: 'master'
+  gem.add_dependency "motion-cocoapods"
   gem.add_development_dependency "motion-stump", "~> 0.3"
   gem.add_development_dependency "motion-redgreen", "~> 0.1"
   gem.add_development_dependency "rake"
